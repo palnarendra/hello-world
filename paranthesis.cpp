@@ -74,6 +74,6 @@ int n= s.size();
 
 bool c = paranthesis(s,n);
 string res = c==1? "correct expression : ":"uncorrect expression : ";
-cout<< c <<"\t"<< res<< s <<endl;
+cout<< c <<"\t"<< res <<endl;
 return 0;
 }
