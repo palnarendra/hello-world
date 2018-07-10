@@ -68,8 +68,8 @@ stack <char> st;
 int main(){
 
 string s;
-s = "{{}[](2*4+5)(5-*6+)))----}";
-
+	//s = "{{}[](2*4+5)(5-*6+)))----}";
+cin>>"enter the expression">> s;
 int n= s.size();
 
 bool c = paranthesis(s,n);
